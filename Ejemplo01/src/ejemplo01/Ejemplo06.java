@@ -14,20 +14,20 @@ public class Ejemplo06 {
         // Uso de printf
         // f: formato
         
-        String nombreEstudiante = "René Rolando";
-        String apellidoEstudiante = "Elizalde Solano";
-        int nacimiento = 1983;
+        String nombreEstudiante = "Santiago Fernando";
+        String apellidoEstudiante = "Rosales Vivanco";
+        int nacimiento = 2005;
         
         // System.out.println(nombreEstudiante+" "+apellidoEstudiante+ " "+ 
         // nacimiento);
         // En printf; 
         // usamos %s para reemplazar las cadenas, enteros, decimales
         // usamos %d para reemplazar los valores enteros
-        // usamos %f para reemplazar los valore decimales
+        // usamos %f para reemplazar los valores decimales
         // System.out.printf("%s\n\n%s\n\n%s\n", nombreEstudiante, 
         //        apellidoEstudiante, nacimiento);
-        System.out.printf("Nombre:%s\n\n%s\n\n%s\n", nombreEstudiante, 
-                apellidoEstudiante, nacimiento);
+        System.out.printf("Nombre: %s\n\nAPELLIDO: %s\n\nAño de Nacimiento: %s\n",
+                nombreEstudiante, apellidoEstudiante, nacimiento);
         
     }
 }

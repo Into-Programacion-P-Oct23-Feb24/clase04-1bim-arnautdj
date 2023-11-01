@@ -27,7 +27,7 @@ public class Ejemplo05 {
         System.out.println(nombreEstudiante+"\n"+"\n"+apellidoEstudiante+ "\n"+
                 "\n"+ nacimiento); */
         System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
-        System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);
+        System.out.println(nombreEstudiante+"\n"+apellidoEstudiante);
         /*
         El separador "\t" sirve para dar un espacio de tabulador, mientras que
         el separador "\n" sirve para dar un espacio de linea.
